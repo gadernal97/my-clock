@@ -1,0 +1,28 @@
+:root{
+    --cor0:#034C8C;
+    --cor1:#F2F2F2;
+    --cor2:#F24E29;
+    --cor3:#F25041;
+    --cor4:#D97E7E;
+}
+body{
+    background-color: var(--cor0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.clock{
+    background-color: var(--cor3);
+    width: 450px;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+span{
+    background-color: var(--cor0);
+    font-size: 2em;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 25px;
+}
